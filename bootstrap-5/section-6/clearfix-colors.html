@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+
+                <!-- to show bg color, add clearfix -->
+                <div class="bg-primary clearfix">
+                    <button class="btn btn-secondary float-start">Float start</button>
+                    <button class="btn btn-secondary float-end">Float end</button>
+                </div> 
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-8">
+                <!-- link color -->
+                <a href="#" class="link-primary">link primary</a>
+                <a href="#" class="link-success">link success</a>
+                <a href="#" class="link-warning">link warning</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-8">
+                <div class="text-bg-dark p-3">some text for example</div>
+
+                <div class="badge text-bg-primary m-2">primary</div>
+                <hr>
+
+                <div class="card text-bg-info mb-3" style="max-width: 250px;">
+                    <div class="card-header">header</div>
+                    <div class="card-body">
+                        some example body
+                    </div>
+                </div>
+
+                <!-- positions -->
+                <!-- fixed-bottom, sticky-top, sticky-bottom -->
+                <!-- wrapped in div class="d-grid gap-2" -->
+                <button type="button" class="btn btn-info fixed-bottom">fixed bottom</button>
+                <!-- can also use breakpoints-> sticky-sm-top, etc-->
+
+                
+                <!-- text truncation -->
+                <!-- block level -->
+                <div class="row">
+                    <div class="col-md-2 text-truncate">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos quidem voluptate ullam ipsam, inventore necessitatibus reprehenderit ea ab distinctio? Perspiciatis cum, tempora explicabo nobis illo id. Fugit, recusandae enim!
+                    </div>
+                </div>
+
+                <!-- inline level -->
+                 <div class="d-inline-block text-truncate" style="max-width: 150px;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem saepe provident dolores optio, impedit tempora necessitatibus temporibus ipsum ex laudantium repellendus eius beatae dolor veritatis nam minus, sunt placeat! Earum!
+                 </div>
+                 
+                <!-- text color and opacity -->
+                <!-- for color, add text-primary/dark/.. in class -->
+                 <!-- for opacity, add text-opacity-50/... in class -->
+                 <div class="alert mb-2 bg-light">Text colors</div>
+                 <div class="alert mb-2 bg-light text-primary">Text colors</div>
+                 <div class="alert mb-2 bg-light text-success">Text colors</div>
+                 <div class="alert mb-2 bg-light text-danger">Text colors</div>
+
+                 <div class="text-primary">default text</div>
+                 <div class="text-primary text-opacity-75">default text</div>
+                 <div class="text-primary text-opacity-50">default text</div>
+                 <div class="text-primary text-opacity-25">default text</div>
+                 <div class="text-primary" style="--bs-text-opacity: 0.1;">default text</div>
+            </div>
+        </div>
+    </div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

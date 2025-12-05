@@ -1,0 +1,11 @@
+remove carousel carousel-fade
+inside carousel-inner->carousel-item active
+beside carousel-item active add data-bs-interval="500/1500/2000...etc"
+
+to get dark text on light bg/img:
+in class (beside "carousel slide"), add carousel-dark
+class="carousel slide carousel-dark"
+alternatively, just add data-bs-theme="dark"
+
+close button- vids-61/62
+use data-bs-theme="" tochange close button color

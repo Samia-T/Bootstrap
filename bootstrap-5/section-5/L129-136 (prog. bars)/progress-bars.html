@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- old default prog bar -->
+                <div class="progress mb-3">
+                    <!-- to add 50%, add w-50 in class-->
+                    <div 
+                        class="progress-bar w-50"
+                        role="progressbar"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100">
+                    </div>
+                </div>
+
+                <!-- new -->
+                <!-- change aria-valuenow -->
+                 <!-- to change height, add style to parent, not child: -->
+                <div class="progress mb-3"
+                    role="progressbar"
+                    aria-label="basic example"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 20px;">
+                    
+                    <!-- to add 50%, change style="width: 50%" -->
+                    <!-- change progress color, and text color too, add text-bg-dark/danger -->
+                    <div 
+                        class="progress-bar text-bg-warning"
+                        style="width: 30%;">
+                        30% percent
+                    </div>
+                </div>
+
+                <!-- 0% progress -->
+                <div class="progress mb-3"
+                    role="progressbar"
+                    aria-label="basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 20px;">
+                    0% percent                
+                    <div 
+                        class="progress-bar"
+                        style="width: 0%;">
+                    </div>
+                </div>
+
+                <!-- custom style, 27% -->
+                <!-- can add height (after class), style="height: 1px/20px;" 
+                 can add bg to parent, bg-success/dark in class-->
+                <div class="progress bg-dark mb-3" style="height: 20px;"
+                    role="progressbar"
+                    aria-label="example"
+                    aria-valuenow="27"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <!-- to add stripes, add progress-bar-striped in class -->
+                    <!-- to animate, add progress-bar-animated as well -->
+                     <!-- to change progress color, add (text-)bg-info/warning in class  -->
+                    <div 
+                        class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                        style="width: 27%;">
+                        <!-- add value: -->
+                        27%
+                    </div>
+                </div>
+
+                <!-- STACKED prog bars -->
+                 <div class="progress-stacked">
+                    <!-- 1st -->
+                    <div class="progress"
+                        role="progressbar"
+                        aria-label="segment one"
+                        aria-valuenow="15"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 15%;">
+                                        
+                        <div 
+                            class="progress-bar text-bg-dark">
+                            15%
+                        </div>
+                    </div>
+
+                    <!-- 2nd -->
+                    <div class="progress"
+                        role="progressbar"
+                        aria-label="segment two"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;">                                        
+                        <div 
+                            class="progress-bar text-bg-primary">
+                            30%
+                        </div>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="progress"
+                        role="progressbar"
+                        aria-label="segment three"
+                        aria-valuenow="20"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 20%;">                                        
+                        <div 
+                            class="progress-bar text-bg-info">
+                            30%
+                        </div>
+                    </div>
+                 </div>
+                
+            </div>
+        </div>
+    </div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

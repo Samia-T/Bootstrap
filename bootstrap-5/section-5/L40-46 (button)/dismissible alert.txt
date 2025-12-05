@@ -1,0 +1,7 @@
+class="alert alert-primary alert dismissible fade show"
+
+button->
+type=button
+class="btn-close"
+data-bs-dismissible="alert"
+aria-label="Close"
