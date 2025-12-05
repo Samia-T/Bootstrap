@@ -4,7 +4,7 @@ This repo contains my notes, examples, and projects as I work through a Bootstra
 
 | Project Name | Live Links | Source Code |
 |--------------|------------|-------------|
-| EMS         | [View](https://ems-bootstrap.netlify.app/dash) | [View](https://ems-source-code.netlify.app/)    
+| EMS         | [View](https://ems-bootstrap.netlify.app/) | [View](https://ems-source-code.netlify.app/)    
 
 
 
